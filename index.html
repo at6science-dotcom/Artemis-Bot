@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARTEMIS Bot Policies</title>
+    <!-- Imports the Press Start 2P font from Google Fonts -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            background-color: #0f111a;
+            color: #ffffff;
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 2.5rem;
+            color: #5865F2; /* Discord Blurple color */
+            margin-bottom: 3rem;
+            text-align: center;
+            text-shadow: 0px 4px 0px #000000;
+            letter-spacing: 2px;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .policy-btn {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 0.9rem;
+            background-color: #23272a;
+            color: #ffffff;
+            border: 4px solid #ffffff;
+            padding: 1.2rem;
+            text-decoration: none;
+            text-align: center;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: transform 0.1s, background-color 0.2s;
+            box-shadow: 5px 5px 0px #000000;
+        }
+
+        .policy-btn:hover {
+            background-color: #5865F2;
+            transform: translate(-2px, -2px);
+            box-shadow: 7px 7px 0px #000000;
+        }
+
+        .policy-btn:active {
+            transform: translate(3px, 3px);
+            box-shadow: 2px 2px 0px #000000;
+        }
+
+        @media (max-width: 480px) {
+            h1 { font-size: 1.8rem; }
+            .policy-btn { font-size: 0.75rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>ARTEMIS</h1>
+
+    <div class="button-container">
+        <!-- REPLACE THE LINKS BELOW WITH YOUR GIST OR LEGAL LINKS -->
+        <a href="YOUR_PRIVACY_POLICY_URL_HERE" target="_blank" class="policy-btn">Privacy Policy</a>
+        <a href="YOUR_TERMS_OF_SERVICE_URL_HERE" target="_blank" class="policy-btn">Terms of Service</a>
+    </div>
+
+</body>
+</html>
